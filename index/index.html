@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tosuheon</title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Noto+Sans+KR:wght@100..900&display=swap');
+
+            *{
+                margin: 0;
+                padding: 0;
+                font-family: "Noto Sans KR", sans-serif;
+            }
+                body{
+                    display: flex;
+                    flex-direction: column;
+
+                    width:  1440px;
+                    height: 1025px;
+                    margin: auto;
+                    padding-top: 32px;
+
+                    background-color: #232323;
+                    background-image:url("resource/Main\ back\ img.png");
+                    background-repeat: no-repeat;
+                    background-size: 65%;
+                    background-position: 450px bottom;
+
+                    color: white;
+                }
+                    a{
+                        text-decoration: none;
+                        color: white;
+                    }
+                    
+            .highlight{
+                color: #2FE361;
+            }
+
+            nav {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+                ul{
+                    display: flex;
+                    align-items: center;
+                    gap: 20px;
+
+                    list-style:none;
+                }
+                    #icon{
+                        padding-right: 16px;
+                    }
+                    #topnav{
+                        font-size: 14px;
+                        font-weight: 400;
+                        text-align: center;
+                        line-height: 100%;
+                        
+                    }
+            main{
+                height: 80%;
+                margin-top: auto;
+                margin-bottom: auto;
+            }
+            #conA{
+                margin-top: 86px;
+            }
+                #conS{
+                    display: flex;
+
+                }
+                h1{
+                    display: flex;
+                    align-items: end;
+
+                    font-family: "Abhaya Libre", serif;
+
+                    font-size: 100px;
+                    font-weight: 800;
+                    line-height: 90%;
+                    letter-spacing: 3%;  
+                }
+                    span{
+                        display: flex;
+                        align-items: center;
+                        gap: 12px;
+
+                        font-family: "Noto Sans KR", sans-serif;
+                        font-size: 10px;
+                        font-weight: 700;
+                        line-height: 100%;
+                        letter-spacing: 10%;
+
+                  
+                        padding-bottom: 25px;
+                    }
+                        #POtext{
+                            
+                            width: 32px;
+                            height: 1px;
+                            background-color: #2FE361;
+                        }
+                h2{
+                    font-size: 24px;
+                    font-weight: 700;
+                    line-height: 33px;
+                    letter-spacing: 5%;
+
+                    margin-top: 56px;
+                }
+                p{
+                    font-size: 14px;
+                    font-weight: 300;
+                    line-height: 19px;
+                    letter-spacing: 5%;
+
+                    margin-top: 24px;
+                }
+
+            #conB{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                margin-top: 72px;
+            }
+                h3{
+                    font-size: 12px;
+                    font-weight: 700;
+                    line-height: 20px;
+                    letter-spacing: 5%;  
+                }
+                #conB ul{
+                    width: 140px;
+                    font-size: 12px;
+                    font-weight: 700;
+                    line-height: 16px;
+                    letter-spacing: 10%;
+                }
+        </style>
+    </head>
+    <body>
+        <nav id="topnav">
+            <ul>
+                    <li id="icon"><a href="#"><img src="resource/Logo.png" width="60px"></a></li>
+                    <li><a class="highlight" href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">BLog</a></li>
+                    <li><a href="#">Contact</a></li>
+            </ul>
+            <ul>
+                    <li><a href="#"><img src="resource/Logo_Search.png"></a></li>
+                    <li><a href="#"><img src="resource/Logo_Menu.png"></a></li>
+            </ul>
+        </nav>
+
+        <main>
+        <div id="conA">
+            <div id="conS">
+            <h1>SUHEON
+                <br>CHOI <span class="highlight" >Product Owner<div id="POtext"></div></span>
+            </h1>
+    
+            </div>
+            <h2>빛나는 순간을 잡는<br>프로덕트 오너 최수헌 입니다!</h2>
+            <P>고객에게 새로운 경험과 서비스를 안겨주며,<br>문제를 다양한 방법으로 해결해주는<br>프로덕트 오너가 되고 싶습니다.</P>
+        </div>
+
+        <div id="conB">
+            <h3 class="highlight">T: 010. 1234. 5678<br>E: tosuheon@gmail.com</h3>
+    
+            <ul>
+                <li><a class="highlight" href="#">IL</a></li>
+                <li><a href="#">IN</a></li>
+                <li><a href="#">BE</a></li>
+                <li><a href="#">GIT</a></li>
+            </ul>
+          </div>
+        </main>
+    </body>
+</html>
